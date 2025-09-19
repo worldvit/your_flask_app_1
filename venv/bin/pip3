@@ -1,4 +1,4 @@
-#!/var/www/html/your_flask_app/venv/bin/python3.12
+#!/home/ubuntu/development/your_flask_app_blueprint/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
