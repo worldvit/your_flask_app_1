@@ -27,7 +27,7 @@ class Config:
 
     # 데이터베이스 연결 설정
     # 환경 변수가 설정되지 않았을 경우 사용할 기본값(폴백)을 지정합니다.
-    DB_HOST = os.getenv('DB_HOST', '10.10.8.4')
+    DB_HOST = os.getenv('DB_HOST', '192.168.0.4')
     DB_USER = os.getenv('DB_USER', 'flask_user')
     DB_PASSWORD = os.getenv('DB_PASSWORD', 'P@ssw0rd')
     DB_NAME = os.getenv('DB_NAME', 'flask_auth_db')
